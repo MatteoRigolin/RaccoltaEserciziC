@@ -1,1 +1,1 @@
-# RaccoltaEserciziC
+# Raccolta degli esercizi in C
