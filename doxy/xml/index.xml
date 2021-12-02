@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+  <compound refid="struct_persona___t" kind="struct"><name>Persona_T</name>
+    <member refid="struct_persona___t_1a9ccb3b1009c0baf8e49e38488c83732a" kind="variable"><name>nome</name></member>
+    <member refid="struct_persona___t_1ac12627d65ac1798778b6defb4d06a2d1" kind="variable"><name>cognome</name></member>
+  </compound>
+  <compound refid="es1libro_8c" kind="file"><name>es1libro.c</name>
+    <member refid="es1libro_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="es2libro_8c" kind="file"><name>es2libro.c</name>
+    <member refid="es2libro_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="es3libro_8c" kind="file"><name>es3libro.c</name>
+    <member refid="es3libro_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="es4libro_8c" kind="file"><name>es4libro.c</name>
+    <member refid="es4libro_8c_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+</doxygenindex>

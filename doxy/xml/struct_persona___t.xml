@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="struct_persona___t" kind="struct" language="C++" prot="public">
+    <compoundname>Persona_T</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_persona___t_1a9ccb3b1009c0baf8e49e38488c83732a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char nome[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/User/Desktop/Matteo ITIS/eslibroc/es4libro.c" line="22" column="10" bodyfile="C:/Users/User/Desktop/Matteo ITIS/eslibroc/es4libro.c" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_persona___t_1ac12627d65ac1798778b6defb4d06a2d1" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char cognome[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>cognome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/User/Desktop/Matteo ITIS/eslibroc/es4libro.c" line="23" column="10" bodyfile="C:/Users/User/Desktop/Matteo ITIS/eslibroc/es4libro.c" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>struct <ref refid="struct_persona___t" kindref="compound">Persona_T</ref>: struct che rappresenta una persona con un nome e un cognome </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>char</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome[20]: nome della persona </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>char</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cognome[20]: cognome della persona </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="C:/Users/User/Desktop/Matteo ITIS/eslibroc/es4libro.c" line="21" column="1" bodyfile="C:/Users/User/Desktop/Matteo ITIS/eslibroc/es4libro.c" bodystart="21" bodyend="24"/>
+    <listofallmembers>
+      <member refid="struct_persona___t_1ac12627d65ac1798778b6defb4d06a2d1" prot="public" virt="non-virtual"><scope>Persona_T</scope><name>cognome</name></member>
+      <member refid="struct_persona___t_1a9ccb3b1009c0baf8e49e38488c83732a" prot="public" virt="non-virtual"><scope>Persona_T</scope><name>nome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
