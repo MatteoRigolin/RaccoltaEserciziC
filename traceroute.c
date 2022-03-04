@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
         close(p3p0[0]);
         close(p3p0[1]);
         execl("/usr/bin/tail", "tail", "-n +2", NULL);
-        return -1
+        return -1;
     }
     
 }
