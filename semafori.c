@@ -1,11 +1,11 @@
 #include <pthread.h>
 #include <stdlib.h>
 #include <stdio.h>
-#define TANTI1 30
-#define TANTI2 20
+# define TANTI1 30
+# define TANTI2 20
 int condivisa = 0;
 pthread_mutex_t mutex;
-void *cod_thread(void *argc)
+void *cod_thread(void *arg)
 {
     int x, dato;
     for (x=0; x< TANTI1; x++)
@@ -24,7 +24,7 @@ int main (void)
     pthread_t tid1;
     int x, err;
     pthread_mutex_init(&mutex, NULL);
-    if ((err = pthread_create(&tid1, NULL, cod_thread, NULL))!= NULL)
+    if ((err = pthread_create(&tid1, NULL, cod_thread, NULL))!= 0)
     {
         printf("errore nella creazione del thread: %s\n", strerror(err));
         exit(1);
@@ -37,7 +37,7 @@ int main (void)
        fflush(stdout);
        pthread_mutex_unlock(&mutex);
     }
-    if(pthread_joi(tid1,NULL))
+    if(pthread_join(tid1,NULL))
     {
         printf("errore: %s\n",strerror(err));
         exit(1);
