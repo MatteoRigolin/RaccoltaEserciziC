@@ -1,6 +1,7 @@
 #include <pthread.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 # define TANTI1 30
 # define TANTI2 20
 int condivisa = 0;
